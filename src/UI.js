@@ -105,7 +105,7 @@ class UI extends React.Component {
                                     default:
                                         return;
                                 }
-                            })()}
+                            })}
                         </div>
                     </div>
                     <ComputerScore dice={this.state.computerScore.score} />
